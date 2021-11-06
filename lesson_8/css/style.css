@@ -1,0 +1,21 @@
+h1 {
+	font-family: Arial;
+	font-size: 36px;
+	margin-top: 139px;
+	margin-bottom: 106px;
+}
+
+.feature {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.feature img {
+	height: 136px;
+	margin-bottom: 24px;
+}
+
+.feature p {
+	font-family: Arial;
+	font-size: 18px;
+}

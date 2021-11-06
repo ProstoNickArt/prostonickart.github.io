@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	line-height: 1.6;
+	color: #333;
+}
+
+.section {
+	padding: 30px 10%;
+}
+
+.header {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.header span {
+	font-weight: 400;
+	display: block;
+}
+
+.header strong {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.main {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.video, .form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form {
+	margin-left: 30px;	
+	text-align: center;
+	padding: 20px;
+	border: 5px solid #2727d9;
+}
+
+.form-header {
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.form input {
+	display: block;
+	margin-top: 11px;
+	width: 300px;
+	padding: 17px;
+	font-size: 18px;
+	border: 1px solid #333;
+}
+
+.btn {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #2727d9;
+	border: none;
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin: 11px auto;
+}
+
+.col {
+	display: inline-block;
+	text-align: center;
+	margin: 10px 39px;
+	width: 120px;
+}
+
+.col p {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.feature-header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.feature {
+	margin-top: 90px;
+	text-align: center;
+}
+
+.feature-col {
+	margin-bottom: 85px;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.photo-list {
+	max-width: 1230px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photo {
+	display: inline-block;
+	margin: 1.25%;
+}

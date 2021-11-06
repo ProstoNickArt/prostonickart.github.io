@@ -1,0 +1,12 @@
+div	{
+	box-sizing: border-box;
+	border: 2px solid gray;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	padding: 20px 30px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -150px;
+}
