@@ -5,7 +5,7 @@ __Мои домашние задания__
 
 [Урок 5](https://prostonickart.github.io/lesson_5/) - Знакомство с CSS
 
-[Урок 6.1](https://prostonickart.github.io/lesson_6.1/) и [Урок 6.2](prostonickart.github.io/lesson_6.2/) - Позиционирование в CSS
+[Урок 6.1](https://prostonickart.github.io/lesson_6.1/) и [Урок 6.2](https://prostonickart.github.io/lesson_6.2/) - Позиционирование в CSS
 
 [Урок 7](https://prostonickart.github.io/lesson_7/) - Верстка первого макета
 
