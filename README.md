@@ -23,4 +23,4 @@ __Мои домашние задания__
 
 [Урок 14](https://prostonickart.github.io/lesson_14/) - Подключение шрифтов
 
-[Урок 14. Практика 2](https://prostonickart.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого экрана.
+[Урок 14. Практика 2](https://prostonickart.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого контента.
