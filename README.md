@@ -22,3 +22,5 @@ __Мои домашние задания__
 [Урок 13. Практика 1](https://prostonickart.github.io/lesson_13_practice/) - Вёрстка шапки сайта
 
 [Урок 14](https://prostonickart.github.io/lesson_14/) - Подключение шрифтов
+
+[Урок 14. Практика 2](https://prostonickart.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого экрана.
