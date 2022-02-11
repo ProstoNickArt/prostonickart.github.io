@@ -23,6 +23,8 @@ __Мои домашние задания__
 
 [Урок 14](https://prostonickart.github.io/lesson_14/) - Подключение шрифтов
 
-[Урок 14. Практика 2](https://prostonickart.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого контента
+[Урок 14. Практика 2](https://prostonickart.github.io/lesson_14_practice/) - Подключение шрифтов. Верстка первого экрана
 
 [Урок 15](https://prostonickart.github.io/lesson_15/) - Псевдоклассы и псевдоэлементы
+
+[Урок 15. Практика 3](https://prostonickart.github.io/lesson_15_practice/) - Эффекты при наведении и адаптив первого экрана
