@@ -30,3 +30,5 @@ __Мои домашние задания__
 [Урок 15. Практика 3](https://prostonickart.github.io/lesson_15_practice/) - Эффекты при наведении и адаптив первого экрана
 
 [Урок 16](https://prostonickart.github.io/lesson_16/) - Слайдер на сайте
+
+[Урок 16. Практика 4](https://prostonickart.github.io/lesson_16_practice/) - Верстка блока с преимуществами. Слайдер
