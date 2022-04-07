@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Всплывающие окна</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<button class="btn main-btn" data-toggle="modal" data-target="#my-modal">Удалить файл</button>
+
+	<!-- Модальное окно от бутстрап -->
+	<div class="modal fade" id="my-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Вы уверены?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Вы действительно  хотите <strong>удалить</strong> этот файл?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn yes-btn">Да</button>
+        <button type="button" class="btn no-btn" data-dismiss="modal">Нет</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
