@@ -33,4 +33,4 @@ __Мои домашние задания__
 
 [Урок 16. Практика 4](https://prostonickart.github.io/lesson_16_practice/) - Верстка блока с преимуществами. Слайдер
 
-[Урок 17](https://prostonickart.github.io/lesson_17/) - Всплывающие окна
+[Урок 178](https://prostonickart.github.io/lesson_17/) - Всплывающие окна
