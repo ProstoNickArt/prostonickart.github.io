@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Myriad Pro', sans-serif;
+	background: url(../img/bg.png) no-repeat center;
+	height: 500px;
+}
+.container {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 1.9rem;
+	width: 600px;
+}
+.nav-tabs {
+	border: 0;
+	font-size: 2.4rem;
+}
+.nav-tabs .nav-link.active {
+
+}
