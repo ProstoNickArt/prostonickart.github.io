@@ -38,3 +38,5 @@ __Мои домашние задания__
 [Урок 17. Практика 5](https://prostonickart.github.io/lesson_17_practice/) - Верстка всплывающих окон на сайте
 
 [Урок 18.1](https://prostonickart.github.io/lesson_18.1/) и [Урок 18.2](https://prostonickart.github.io/lesson_18.2/) - Табы и аккордеон для сайта
+
+[Урок 18. Практика 6](https://prostonickart.github.io/lesson_18_practice/) - Верстка блока с ценами
