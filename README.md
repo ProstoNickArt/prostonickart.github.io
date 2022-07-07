@@ -42,3 +42,5 @@ __Мои домашние задания__
 [Урок 18. Практика 6](https://prostonickart.github.io/lesson_18_practice/) - Верстка блока с ценами
 
 [Урок 19](https://prostonickart.github.io/lesson_19/) - Анимация CSS3 
+
+[Урок 19. Практика 7](https://prostonickart.github.io/lesson_19_practice/) - Блок с отзывами
