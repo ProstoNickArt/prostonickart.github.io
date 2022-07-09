@@ -46,3 +46,5 @@ __Мои домашние задания__
 [Урок 19. Практика 7](https://prostonickart.github.io/lesson_19_practice/) - Блок с отзывами
 
 [Урок 20](https://prostonickart.github.io/lesson_20/) - Видео фон на сайте
+
+[Урок 20. Практика 8](https://prostonickart.github.io/lesson_20_practice/) - Доверстали блок с отзывами
