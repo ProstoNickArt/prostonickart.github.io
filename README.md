@@ -50,3 +50,5 @@ __Мои домашние задания__
 [Урок 20. Практика 8](https://prostonickart.github.io/lesson_20_practice/) - Доверстали блок с отзывами
 
 [Урок 21](https://prostonickart.github.io/lesson_21/) - Эффект parallax
+
+[Урок 21. Практика 9](https://prostonickart.github.io/lesson_21_practice/) - Верстаем схему работы и все включено
