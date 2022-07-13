@@ -52,3 +52,5 @@ __Мои домашние задания__
 [Урок 21](https://prostonickart.github.io/lesson_21/) - Эффект parallax
 
 [Урок 21. Практика 9](https://prostonickart.github.io/lesson_21_practice/) - Верстаем схему работы и все включено
+
+[Урок 22](https://prostonickart.github.io/lesson_22/) - Гео-карты на сайте
