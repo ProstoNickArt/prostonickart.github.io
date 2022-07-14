@@ -56,3 +56,5 @@ __Мои домашние задания__
 [Урок 22](https://prostonickart.github.io/lesson_22/) - Гео-карты на сайте
 
 [Урок 22. Практика 10](https://prostonickart.github.io/lesson_22_practice/) - Верстаем блок "Развеиваем сомнения"
+
+[Урок 23. Практика 11](https://prostonickart.github.io/lesson_23_practice/) - Верстаем блок "Материалы"
