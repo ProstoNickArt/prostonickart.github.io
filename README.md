@@ -58,3 +58,5 @@ __Мои домашние задания__
 [Урок 22. Практика 10](https://prostonickart.github.io/lesson_22_practice/) - Верстаем блок "Развеиваем сомнения"
 
 [Урок 23. Практика 11](https://prostonickart.github.io/lesson_23_practice/) - Верстаем блок "Материалы"
+
+[Урок 24. Практика 12](https://prostonickart.github.io/lesson_23_practice/) - Верстаем блок "Экскурсия" и "Доп. Услуги"
