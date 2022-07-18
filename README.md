@@ -60,3 +60,5 @@ __Мои домашние задания__
 [Урок 23. Практика 11](https://prostonickart.github.io/lesson_23_practice/) - Верстаем блок "Материалы"
 
 [Урок 24. Практика 12](https://prostonickart.github.io/lesson_24_practice/) - Верстаем блок "Экскурсия" и "Доп. Услуги"
+
+[Урок 25. Практика 13](https://prostonickart.github.io/lesson_25_practice/) - Верстаем блок "Контакты" и "Подвал"
