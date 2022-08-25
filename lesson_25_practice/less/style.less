@@ -34,6 +34,11 @@
 @upsell-bg: #286b0a;
 
 /* Basic settings */
+iframe {
+	width: 100% !important;
+	height: 300px !important;
+	border: 0;
+}
 html {
 	font-size: 10px;
 }
@@ -564,6 +569,13 @@ section {
 .tour {
 	background: @light url(../img/tour.jpg) center no-repeat;
 	background-size: cover;
+	&-title {
+		margin-bottom: 5rem;
+		.bold();
+		font-size: 4rem;
+		line-height: 1.45;
+		text-transform: uppercase;
+	}
 	&-subtitle {
 		font-size: 2.2rem;
 	}
@@ -765,6 +777,10 @@ footer {
 	.tour {
 		background: none;
 		background-color: @bg-light;
+		&-title {
+			padding-bottom: 3rem;
+			text-align: center;
+		}
 	}
 	.contacts {
 		background: none;
@@ -816,15 +832,30 @@ footer {
 			min-height: 20rem;
 		}
 	}
+	.tour {
+		&-title {
+			font-size: 3rem
+;		}
+		&-subtitle {
+			font-size: 1.8rem;
+		}
+	}
 }
 
 @media (max-width: 575px) {
-	.main-title h1 {
-		font-size: 2rem;
+	.main {
+		&-title h1 {
+			font-size: 2rem;
+		}
 	}
 	.section-header {
 		h2 {
 			font-size: 3rem;
+		}
+	}
+	.tour {
+		&-title {
+			font-size: 2.5rem;
 		}
 	}
 }
