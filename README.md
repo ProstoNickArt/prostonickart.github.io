@@ -62,3 +62,5 @@ __Мои домашние задания__
 [Урок 24. Практика 12](https://prostonickart.github.io/lesson_24_practice/) - Верстаем блок "Экскурсия" и "Доп. Услуги"
 
 [Урок 25. Практика 13](https://prostonickart.github.io/lesson_25_practice/) - Верстаем блок "Контакты" и "Подвал"
+
+[Урок 26. Практика 14](https://prostonickart.github.io/lesson_26_practice/) - Анимация, маска и админка
