@@ -15,7 +15,7 @@ __Мои домашние задания__
 
 [Урок 10](https://github.com/ProstoNickArt/prostonickart.github.io/tree/main/lesson_10) - Препроцессор LESS для CSS
 
-Урок 11 - Сниппеты
+[Урок 11](https://github.com/ProstoNickArt/prostonickart.github.io/tree/main/lesson_11) - Сниппеты
 
 [Урок 13](https://prostonickart.github.io/lesson_13/) - Вёрстка PixelPerfect
 
