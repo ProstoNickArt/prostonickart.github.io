@@ -13,7 +13,7 @@ __Мои домашние задания__
 
 [Урок 9](https://prostonickart.github.io/lesson_9/) - Верстка при помощи Bootstrap
 
-Урок 10 - Препроцессор LESS для CSS
+[Урок 10](https://github.com/ProstoNickArt/prostonickart.github.io/tree/main/lesson_10) - Препроцессор LESS для CSS
 
 Урок 11 - Сниппеты
 
