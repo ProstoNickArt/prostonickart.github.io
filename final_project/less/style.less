@@ -1,0 +1,1220 @@
+/* Fonts family */
+@font-face {
+	font-family: 'HelveticaNeueCyr_Black';
+	src: url('../fonts/HelveticaNeueCyr-Black.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueCyr-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr_Bold';
+	src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr_Roman';
+	src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr_Medium';
+	src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Qanelas_Medium';
+	src: url('../fonts/Qanelas-Medium.woff2') format('woff2'),
+		url('../fonts/Qanelas-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+.qmed() {
+	font-family: 'Qanelas_Medium', sans-serif;
+}
+.hnmed() {
+	font-family: 'HelveticaNeueCyr_Medium', sans-serif;
+}
+.hnroman() {
+	font-family: 'HelveticaNeueCyr_Roman', sans-serif;
+}
+.hnbold() {
+	font-family: 'HelveticaNeueCyr_Bold', sans-serif;
+}
+.hnblack() {
+	font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+/* Colors */
+@btn: #94ca2d;
+@decoration: #18a7d0;
+@price: #b61919;
+@text: #000;
+@light: #fff;
+@btn-shadow: #578f22;
+@box-shadow: #76ae0c;
+@bg-light: #f8f8f0;
+@bg-primary: #fcfcf6;
+@feedback-border: #3eb7b7;
+@contacts-text: #040606;
+@text-shadow: #272b25;
+/* Basic settings */
+html {
+	font-size: 10px;
+}
+a:hover {
+	text-decoration: none;
+}
+button,input,a,textarea {
+	&:focus {
+		outline: none;
+	}
+}
+/* Typography */
+section {
+	padding: 2.5rem 0;
+}
+body {
+	.hnroman();
+	color: @text;
+}
+.button {
+	.hnbold();
+	padding: 2.4rem 4rem;
+	border-radius: 3px;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	color: @light;
+	background-color: @btn;
+	text-shadow: 0 1px 2px @btn-shadow;
+	border: none;
+	transition: all 0.2s;
+	&:hover {
+		background-color: @box-shadow;
+	}
+}
+p {
+	font-size: 1.63rem;
+	line-height: 1.41;
+}
+.section-header {
+	text-align: center;
+	padding: 7.5rem 0 6.5rem;
+	h2 {
+		.hnblack();
+		font-size: 3.5rem;
+	}
+	hr {
+		width: 5.6rem;
+		height: 0.5rem;
+		background-color: @decoration;
+	}
+}
+/* Шапка */
+.header {
+	position: relative;
+	padding: 2rem 0;
+	.hnmed();
+	&::before {
+		position: absolute;
+		content: '';
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: @text;
+		opacity: 0.62;
+	}
+	&-logo {
+		h5 {
+			padding-left: 1.6rem;
+			padding-top: 0.5rem;
+			font-size: 1.93rem;
+			color: @light;
+		}
+	}
+	&-phone {
+		text-align: center;
+		h4 {
+			.hnbold();
+			font-size: 2.5rem;
+			color: @light;
+		}
+		a {
+			text-align: left;
+			font-size: 1.99rem;
+			color: @btn;
+			&:hover {
+				border-bottom: 1px dotted @btn;
+			}
+			&:active {
+				color: @box-shadow;
+			}
+		}
+	}
+}
+/* Главный экран */
+.main {
+	position: relative;
+	.hnbold();
+	color: @light;
+	background-image: url(../images/main-bg.jpg);
+	background-color: @text;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	&-title {
+		margin: 11.1rem 0 28.4rem 0;
+		h1 {
+			font-size: 3.9rem;
+			text-shadow: 0 3px 0 @text-shadow;
+		}
+	}
+	&-subtitle {
+		margin: 2rem 0 3rem 0;
+		font-size: 3rem;
+	}
+}
+.vrbox {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -58rem;
+	margin-bottom: 2.1rem;
+}
+.terex {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-right: -58rem;
+	margin-bottom: .9rem;
+}
+
+/* Блок с описанием и ценами */
+.price {
+	position: relative;
+	background: @bg-light;
+	padding: 10.5rem 0 8rem 0;
+	&-description {
+		margin-bottom: 3.3rem;
+		h2 {
+			.hnblack();
+			font-size: 3.5rem;
+			margin-bottom: 4.3rem;
+		}
+	}
+	&-block {
+		display: inline-block;
+		&:nth-child(3) {
+			margin-left: 7.4rem;
+		}
+		h5 {
+			.hnmed();
+			font-size: 1.93rem;
+		}
+		ul {
+			padding: 0;
+			min-height: 12.5rem;
+			margin-top: 1.4rem;
+			list-style: none;
+			font-size: 1.63rem;
+			li {
+				&:nth-child(5) {
+					.hnmed();
+				}
+			}
+		}
+		p {
+			.hnmed();
+			font-size: 2.43rem;
+			color: @price;
+			margin-bottom: 2.3rem;
+			strong {
+				padding-right: 1.1rem;
+				font-size: 1.93rem;
+				color: @text;
+			}
+		}
+	}
+	&-btn {
+		box-shadow: 0 4px 0 0 @box-shadow;
+	}
+	&-set {
+		position: absolute;
+		top: 50%;
+		margin-top: -21rem;
+		right: 50%;
+		margin-right: -60rem;
+	}
+}
+
+/* Блок с преимуществами */
+.features {
+	position: relative;
+	background: @bg-primary;
+	padding: 17.3rem 0 12.3rem 0;
+	&-block {
+		h4 {
+			.hnmed();
+			font-size: 2.13rem;
+			margin-left: 1rem;
+		}
+		p {
+			height: 6.5rem;
+			margin-top: 2rem;
+			margin-left: 1rem;
+		}
+	}
+}
+.first-block {
+	margin-left: 6.8rem;
+	margin-bottom: 16.6rem;
+}
+.second-block {
+	margin-left: 1.8rem;
+}
+.feature-img-1 {
+	position: absolute;
+	top: 0;
+	right: 50%;
+	margin-right: 7rem;
+	margin-top: 11rem;
+	z-index: 9;
+}
+.feature-img-1_no-shadow {
+	display: none;
+}
+.feature-img-2 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: 6.5rem;
+	margin-bottom: 8rem;
+}
+.sport-vr {
+	z-index: 8;
+}
+.shapes-1 {
+	position: absolute;
+	top: 0;
+	right: 50%;
+	margin-right: 44.5rem;
+	margin-top: 28rem;
+	z-index: 8;
+}
+.shapes-2 {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -7rem;
+	margin-right: 6rem;
+}
+.shapes-3 {
+	position: absolute;
+	top: 0;
+	right: 50%;
+	margin-right: 51rem;
+	margin-top: 26.5rem;
+	z-index: 9;
+}
+.shapes-4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 22.5rem;
+	margin-left: 45.5rem;
+}
+
+/* Блок с формой заказа */
+.first-bg {
+	background: url(../images/order/first-bg.jpg);
+}
+.order {
+	background-color: @text-shadow;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: @light;
+	.hnmed();
+	&-title {
+		padding: 8.5rem 0 4rem 0;
+		h2 {
+			font-size: 3.5rem;
+			.hnblack();
+			line-height: 1.14;
+			padding-bottom: 2rem;
+		}
+		div {
+			position: relative;
+			padding: 1rem 0 1rem 2rem;
+			background-color: @decoration;
+			font-size: 1.8rem;
+			border-bottom-left-radius: 3px;
+			border-top-left-radius: 3px;
+			&::after {
+				content: '';
+				position: absolute;
+				right: -3rem;
+				top: 0;
+				width: 3rem;
+				height: 100%;
+				background: transparent;
+				border-top: 3.7rem solid transparent;
+				border-bottom: 3.7rem solid transparent;
+				border-right: 1.5rem solid transparent;
+				border-left: 1.5rem solid @decoration;
+			}
+		}
+	}
+	&-trigger {
+		display: inline-block;
+		&-br {
+			display: none;
+		}
+		h5 {
+			font-size: 1.8rem;
+			margin-left: 1rem;
+		}
+	}
+	#bag {
+		margin-left: 2.63rem;
+	}
+	&-form {
+		background: @text;
+		border: 4px solid @decoration;
+		border-radius: 3px;
+		text-align: center;
+		padding: 4.4rem 6.3rem 3.7rem;
+		&-header {
+			padding-bottom: 3.4rem;
+			font-size: 2.2rem;
+		}
+	}
+}
+/* Форма */
+.form {
+	&-input {
+		.hnroman();
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+		padding: 1.7rem 3rem;
+		background-color: @text;
+		border: 2px solid @light;
+		border-radius: 3px;
+		color: @light;
+		&::placeholder {
+			color: @light;
+		}
+	}
+	&-btn {
+		margin-bottom: 1.7rem;
+	}
+	small {
+		font-size: 1.5rem;
+		.hnroman();
+	}
+}
+
+/* Блок с схемой работы */
+.scheme {
+	position: relative;
+	text-align: center;
+	z-index: 6;
+	background: @bg-light;
+	&::after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: inherit;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		transform-origin: left bottom;
+		transform: skewY(3.6deg);
+	}
+	&-block {
+		p {
+			margin-top: 5.8rem;
+		}
+	}
+	&-img {
+		line-height: 15.1rem;
+	}
+}
+.circle {
+	display: inline-block;
+	background-color: @decoration;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	&-border {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -10%);
+		display: inline-block;
+		width: 5.6rem;
+		height: 5.6rem;
+		padding: 0.3rem;
+		border: 2px solid @decoration;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 4.5rem;
+		background-color: @light;
+		color: @light;
+		.hnbold();
+		font-size: 3.5rem;
+	}
+}
+
+/* Блок с совместимостью очков */
+.match {
+	position: relative;
+	padding: 8.6rem 0 7.5rem;
+	background: @bg-primary;
+	&-header {
+		h2 {
+			.hnblack();
+			font-size: 3.5rem;
+			padding: 2.5rem 0 4.3rem;
+		}
+	}
+	&-mobile {
+		display: none;
+	}
+	&-phones {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 4rem;
+		text-align: center;
+		&-block {
+			display: inline-block;
+			p {
+				padding-top: 1.7rem;
+				.hnmed();
+				font-size: 2.2rem;
+			}
+		}
+	}
+	&-vrbox {
+		p {
+			padding-top: 2.7rem;
+			.hnmed();
+			font-size: 2.2rem;
+		}
+	}
+}
+.coub {
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+	z-index: 7;
+	margin-bottom: 12rem;
+}
+
+/* Адаптивная вёрстка */
+@media (max-width: 1199.98px) {
+	.vrbox {
+		width: 40rem;
+		margin-left: -49rem;
+	}
+	.terex {
+		width: 45rem;
+		margin-right: -49rem;
+	}
+	.feature-img-1 {
+		width: 43rem;
+		margin-right: 8.5rem;
+	}
+	.feature-img-2 {
+		width: 42rem;
+		margin-left: 0;
+	}
+	.shapes-1 {
+		width: 2rem;
+		margin-right: 43.5rem;
+		margin-top: 27rem;
+	}
+	.shapes-2 {
+		width: 7rem;
+		margin-right: 0;
+	}
+	.shapes-3 {
+		width: 5.5rem;
+		margin-right: 44rem;
+		margin-top: 23rem;
+	}
+	.shapes-4 {
+		width: 5.5rem;
+		margin-top: 24rem;
+		margin-left: 28rem;
+	}
+	.second-block {
+		margin-left: 0;
+	}
+	.price {
+		&-block {
+			display: block;
+			&:nth-child(3) {
+				margin-left: 0;
+				margin-top: 4rem;
+			}
+			ul {
+				min-height: 9.7rem;
+			}
+		}
+		&-set {
+			margin-top: -11rem;
+			margin-right: -49rem;
+		}
+	}
+	.features {
+		&-block {
+			p {
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+	.order {
+		&-form {
+			padding: 4.4rem 4.8rem 3.7rem;
+		}
+	}
+	.scheme {
+		&-block {
+			p {
+				margin: 4rem 0 3rem;
+			}
+		}
+	}
+	.match {
+		&-phones {
+			&-block {
+				img {
+					width: 80%;
+				}
+				p {
+					font-size: 1.9rem;
+				}
+			}
+		}
+		&-vrbox {
+			img {
+				width: 85%;
+			}
+			p {
+				font-size: 1.9rem;
+			}
+		}
+	}
+	.coub {
+		right: 0;
+		width: 6.9rem;
+	}
+}
+@media (max-width: 991.98px) {
+	.section-header {
+		padding: 4.7rem 0 3.7rem;
+	}
+	.main {
+		&-title {
+			margin: 6.1rem 0 28.4rem 0;
+			h1 {
+				font-size: 3.5rem;
+			}
+		}
+	}
+	.vrbox {
+		margin-left: -37rem;
+		width: 35rem;
+	}
+	.terex {
+		margin-right: -37rem;
+		width: 40rem;
+	}
+	.price {
+			padding: 6.5rem 0 6rem 0;
+		&-set {
+			margin-top: -2rem;
+			margin-right: -37rem;
+			width: 43rem;
+		}
+	}
+	.features {
+		padding: 3rem 0 3rem 0;
+		&-block {
+			padding-top: 27rem;
+		}
+	}
+	.first-block {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	.feature-img-1_no-shadow {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 50%;
+		margin-top: 1.5rem;
+		margin-right: -5rem;
+	}
+	.feature-img-2 {
+		width: 42rem;
+		margin-left: -33.5rem;
+		margin-bottom: 23rem;
+	}
+	.sport-vr {
+		display: block !important;
+		position: absolute;
+		width: 48rem;
+		margin-top: 6.5rem;
+		margin-right: -6.5rem;
+	}
+	.playgame {
+		margin-bottom: 21rem;
+	}
+	.feature-img-1 {
+		display: none;
+	}
+	.shapes-1,.shapes-2,.shapes-3,.shapes-4 {
+		display: none;
+	}
+	.order {
+		position: relative;
+		&-title {
+			padding: 4.5rem 0 3rem 0;
+		}
+		&-trigger {
+			position: absolute;
+			bottom: -50%;
+		}
+		#bag {
+			margin-left: 0;
+			margin-bottom: -8rem;
+		}
+	}
+	.match {
+		padding: 6.6rem 0 4.5rem;
+		&-mobile {
+			display: block;
+			img {
+				width: 95%;
+			}
+			p {
+				padding-top: 2rem;
+				.hnmed();
+				font-size: 1.9rem;
+				br {
+					display: none;
+				}
+			}
+		}
+		&-phone {
+			&-block {
+				p {
+					padding-top: 3rem;
+				}
+			}
+		}
+		&-vrbox {
+			display: none;
+		}
+	}
+	.coub {
+		display: none;
+	}
+}
+@media (max-width: 767.98px) {
+	.section-header {
+		h2 {
+			font-size: 2.5rem;
+		}
+	}
+	.button {
+		padding: 1.9rem 3rem;
+		font-size: 1.4rem;
+	}
+	p {
+		font-size: 1.4rem;
+		line-height: 1.3;
+		br {
+			display: none;
+		}
+	}
+	.header {
+		&-logo {
+			img {
+				width: 6.7rem;
+				height: 3.4rem;
+			}
+			h5 {
+				padding-left: 1rem;
+				font-size: 1.7rem;
+			}
+		}
+		&-phone {
+			margin-top: 2rem;
+			h4 {
+				display: inline-block;
+				font-size: 2rem;
+			}
+			a {
+				margin-left: 15rem;
+				font-size: 1.7rem;
+			}
+		}
+	}
+	.main {
+		&-title {
+			margin: 4.1rem 0 18.4rem 0;;
+			h1 {
+				font-size: 2.5rem;
+			}
+		}
+		&-subtitle {
+			font-size: 1.7rem;
+		}
+	}
+	.vrbox {
+		width: 25rem;
+		margin-left: -27rem;
+		margin-bottom: 4rem;
+	}
+	.terex {
+		width: 30rem;
+		margin-right: -27rem;
+		margin-bottom: 2rem;
+	}
+	.price {
+		padding: 4.6rem 0 4.4rem 0;
+		&-description {
+			margin-bottom: 33.3rem;
+			h2 {
+				font-size: 2.5rem;
+				margin-bottom: 2.3rem;
+			}
+		}
+		&-block {
+			display: inline-block;
+			&:nth-child(3) {
+				margin-top: 5rem;
+				margin-left: 2.5rem;
+			}
+			h5 {
+				font-size: 2.03rem;
+			}
+			ul {
+				font-size: 1.4rem;
+				margin-top: 0.4rem;
+				min-height: 11.7rem;
+			}
+			p {
+				font-size: 1.83rem;
+				margin-bottom: 4rem;
+				strong {
+					font-size: 1.63rem;
+				}
+			}
+		}
+		&-set {
+			margin-top: -22rem;
+			margin-right: -20rem;
+		}
+	}
+	.features {
+		&-img {
+			picture {
+				img {
+					width: 3.5rem;
+				}
+			}
+		}
+		&-block {
+			padding-top: 24rem;
+			h4 {
+				font-size: 1.73rem;
+			}
+			p {
+				height: 4rem;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+	.feature-img-1_no-shadow {
+		width: 32rem;
+		margin-top: 2.5rem;
+		margin-right: -17rem;
+	}
+	.sport-vr {
+		width: 43rem;
+		margin-top: 6.5rem;
+		margin-right: -18rem;
+	}
+	.feature-img-2 {
+		width: 38rem;
+		margin-left: -15.5rem;
+		margin-bottom: 16rem;
+	}
+	.order {
+		&-title {
+			padding-top: 2.5rem;
+			h2 {
+				font-size: 2.5rem;
+			}
+			div {
+				font-size: 1.5rem;
+				&::after {
+					border-top: 3.25rem solid transparent;
+					border-bottom: 3.25rem solid transparent;
+					border-right: 1.25rem solid transparent;
+					border-left: 1.25rem solid @decoration;
+				}
+			}
+		}
+		&-trigger {
+			h5 {
+				font-size: 1.2rem;
+			}
+			picture {
+				img {
+					width: 2.3rem;
+				}
+			}
+		}
+		&-form {
+			&-header {
+				font-size: 1.8rem;
+				padding-bottom: 2.5rem;
+			}
+		}
+	}
+	.form {
+		&-input {
+			font-size: 1.5rem;
+			padding: 1.2rem 1.5rem;
+		}
+		&-btn {
+			margin-bottom: 1.4rem;
+		}
+		small {
+			font-size: 1.2rem;
+		}
+	}
+	.circle {
+		&-border {
+			width: 4.6rem;
+			height: 4.6rem;
+			line-height: 3.5rem;
+			font-size: 3rem;
+		}
+	}
+	.match {
+		&-header {
+			h2 {
+				font-size: 2.5rem;
+			}
+		}
+		&-mobile {
+			img {
+				width: 75%;
+			}
+			p {
+				font-size: 1.53rem;
+			}
+		}
+		&-phones {
+			&-block {
+				img {
+					width: 67%;
+				}
+				p {
+					font-size: 1.53rem;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	section {
+		padding: 0;
+	}
+	.section-header {
+		padding: 3.3rem 0 2.1rem;
+		h2 {
+			font-size: 2.2rem;
+		}
+	}
+	.button {
+		padding: 1.4rem 2.5rem;
+		font-size: 1.04rem;
+	}
+	p {
+		font-size: 1.1rem;
+		line-height: 1.2;
+	}
+	.header {
+		&-logo {
+			img {
+				width: 5.3rem;
+				height: 2.7rem;
+			}
+			h5 {
+				font-size: 1.2rem;
+			}
+		}
+		&-phone {
+			h4 {
+				font-size: 1.7rem;
+			}
+			a {
+				margin-left: 1rem;
+				font-size: 1.2rem;
+			}
+		}
+	}
+	.main {
+		&-title {
+			margin: 3.8rem 0 15.2rem 0;
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+		&-subtitle {
+			font-size: 1.6rem;
+		}
+	}
+	.vrbox {
+		width: 15.1rem;
+		left: 36%;
+		margin-left: -34%;
+		margin-bottom: 2.9rem;
+	}
+	.terex {
+		width: 15.2rem;
+		right: 36%;
+		margin-right: -34%;
+		margin-bottom: 1rem;
+	}
+	.price {
+		&-description {
+			margin-bottom: 20rem;
+			h2 {
+				font-size: 2.2rem;
+				margin-bottom: 1.5rem;
+			}
+		}
+		&-block {
+			display: block;
+			&:nth-child(3) {
+				margin-top: 2.8rem;
+				margin-left: 0;
+			}
+			h5 {
+				font-size: 1.63rem;
+			}
+			ul {
+				font-size: 1.03rem;
+				margin-top: 0.4rem;
+				min-height: 0;
+			}
+			p {
+				font-size: 1.43rem;
+				margin-bottom: 2.8rem;
+				strong {
+					font-size: 1.23rem;
+				}
+			}
+		}
+		&-set {
+			width: 28.1rem;
+			top: 50%;
+			right: 36%;
+			margin-top: -21rem;
+			margin-right: -8rem;
+		}
+		&-btn {
+			padding: 1.23rem;
+		}
+	}
+	.features {
+		&-img {
+			picture {
+				img {
+					width: 3rem;
+				}
+			}
+		}
+		&-block {
+			padding-top: 19rem;
+			h4 {
+				margin-left: 0.5rem;
+				font-size: 1.4rem;
+			}
+			p {
+				margin-left: 0.5em;
+				margin-top: 0.5rem;
+			}
+		}
+	}
+	.feature-img-1_no-shadow {
+		width: 22.7rem;
+		left: 36%;
+		margin-left: -25%;
+		margin-top: 4.5rem;
+	}
+	.sport-vr {
+		width: 32rem;
+		left: 20%;
+		margin-left: -25%;
+		margin-top: 6.5rem;
+	}
+	.feature-img-2 {
+		width: 28.4rem;
+		left: 25%;
+		margin-left: -14%;
+		margin-bottom: 13.5rem;
+	}
+	.order {
+		&-title {
+			padding: 3.4rem 0 1.4rem 0;
+			h2 {
+				font-size: 2.2rem;
+				line-height: 1.2;
+				padding-bottom: .8rem;
+			}
+			div {
+				font-size: 1.2rem;
+				&::after {
+					right: -1.4rem;
+					width: 1.4rem;
+					border-top: 2.8rem solid transparent;
+					border-bottom: 2.8rem solid transparent;
+					border-right: 0.7rem solid transparent;
+					border-left: 0.7rem solid @decoration;
+				}
+			}
+		}
+		&-trigger {
+			margin-bottom: -24rem;
+			&-br {
+				display: block;
+			}
+			h5 {
+				margin-left: 0.4rem;
+			}
+		}
+		#bag {
+			margin-left: 25%;
+			left: 25%;
+			margin-bottom: -24rem;
+		}
+		&-form {
+			padding: 2.1rem 4.1rem 2rem;
+			margin-bottom: 10rem;
+			&-header {
+				margin-bottom: 0;
+				padding-bottom: 1.9rem;
+				font-size: 1.4rem;
+			}
+		}
+	}
+	.form {
+		&-input {
+			display: block;
+			width: 100%;
+			font-size: 1.2rem;
+			margin-bottom: 0.5rem;
+			padding: 1rem;
+		}
+		&-btn {
+			display: block;
+			width: 100%;
+			margin-bottom: 0.9rem;
+		}
+	}
+	.scheme {
+		&-block {
+			p {
+				margin: 2.2rem 0 1.6rem;
+			}
+		}
+		&-img {
+			line-height: 9.7rem;
+			img {
+				width: 9.8rem;
+			}
+		}
+	}
+	.circle {
+		&-border {
+			width: 3rem;
+			height: 3rem;
+			font-size: 1.48rem;
+			transform: translate(-50%, -35%);
+			line-height: 1.4;
+		}
+	}
+	.match {
+		position: relative;
+		padding: 2rem 0 4.5rem;
+		&-header {
+			h2 {
+				font-size: 2.2rem;
+				padding: 3rem 0 3.7rem;
+			}
+		}
+		&-mobile {
+			
+			img {
+				width: 20.1rem;
+			}
+			p {
+				font-size: 1.2rem;
+				padding-top: 1.3rem;
+			}
+		}
+		&-phones {
+			display: inline-block;
+			padding-top: 1rem;
+			&-block {
+				p {
+					padding-top: 1rem;
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
+	.ios {
+		img {
+			width: 64px;
+			height: 131px;
+		}
+	}
+	.android {
+		margin-left: 2.4rem;
+		img {
+			width: 66px;
+			height: 132px;
+		}
+	}
+	.windows {
+		margin-left: 1.7rem;
+		img {
+			width: 68px;
+			height: 130px;
+		}
+	}
+}
